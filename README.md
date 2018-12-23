@@ -28,16 +28,38 @@ This paper inspired me for two main reasons:
  > 2) Open terminal and run jupyter notebook (requires Anaconda) to open localhost. Run capital_punishment.ipynb
  > 3) In top cell, make sure your computer directory is set to where the CrimeRates.csv is located. For example if csv is saved in a folder called Crime located on desktop: cd User/Desktop/Crime 
  
- ## What can be done with the current version of the project, and what will be done in future updates
+ ## What can be done with the current version of the project
  
  Currently, users have access to a few functions and tables:
  
 1) `murderous` function takes input values _year_ and _n_. The output is a graph of the _n_ states with the highest murder rates for the specified _year_. For example, Here are the 5 states with the highest murder rates for the year 1986: 
-![alt text](murderous1986.jpg)
+![5 states with the highest murder rates for the year 1986](murderous1986.png)
+
+2) `murders_df` can be modified to include any number of columns from `crimes` DataFrame. To do this, just add/remove from the list of `murders_df`. 
+
+3) There are 5 states chosen in this analysis that act as the control group. `control_1960_to_1963` is a DataFrame which. Running this cell produces a line graph visualization: 
+![Murder Rates for control group states from 1960 to 1963](1960_1963.PNG)
+
+## What will be added in future updates
+
+1) `murderous` will be updated to also include an average line in the bar graph. This average line will show the average murder rate across all states for that year.
+
+2) A `simulation` funtion will be added to simulate the experiment under the null hypothesis.
+
+3) More analytic functions will be added. These include `difference` functions to calculate changes in murder rates over a specified number of years (whether there was an increase or decrease in murder rates), a `other_crimes` function where users can expand the analysis to investigate other types of crimes, and a `cost` function to analyze the average cost of administering capital punishment for particular years.
+
+
+4) A more explicit statement of which crimes are punishable by capital punishment. 
+
+## Current state of project, and what is left to do 
+
+Currently, the relevant DataFrame is accessible and basic analysis of murder rates are available. In the future, what needs to be done is to clearly state the hypothesis that will be tested - capital punishment causes a **decrease** in murder rates. Once this is done, what will follow is an analysis of the hypothesis, as well as a simulation under the null hypothesis to show if our conclusions are due to random chance, or if our alternative hypothesis is true. To do this, I will clearly state the test statistic that will be measured so that a corresponding p-value can be calculated to test for signifance. 
+
+
  
  
  
- Specific documentation of what can be done with the capital_punishment Jupyter notebook can be found in the project wiki, as well as in capital_punishment.ipynb. 
+Specific documentation of what can be done with the capital_punishment Jupyter notebook can be found in the project wiki, as well as in capital_punishment.ipynb. 
  
  
 
