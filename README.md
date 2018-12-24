@@ -33,7 +33,7 @@ This paper inspired me for two main reasons:
  Currently, users have access to a few functions and tables:
  
 1) `murderous` function takes input values _year_ and _n_. The output is a graph of the _n_ states with the highest murder rates for the specified _year_. For example, Here are the 5 states with the highest murder rates for the year 1986: 
-![5 states with the highest murder rates for the year 1986](murderous1986.png)
+<img width="353" alt="murderous1986" src="https://user-images.githubusercontent.com/46054540/50400456-c587ff80-073b-11e9-9b5d-bc8c5a32e134.png">
 
 2) `murders_df` can be modified to include any number of columns from `crimes` DataFrame. To do this, just add/remove from the list of `murders_df`. 
 
