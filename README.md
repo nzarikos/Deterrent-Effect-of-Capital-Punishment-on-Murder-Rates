@@ -38,7 +38,8 @@ This paper inspired me for two main reasons:
 2) `murders_df` can be modified to include any number of columns from `crimes` DataFrame. To do this, just add/remove from the list of `murders_df`. 
 
 3) There are 5 states chosen in this analysis that act as the control group. `control_1960_to_1963` is a DataFrame which. Running this cell produces a line graph visualization: 
-![Murder Rates for control group states from 1960 to 1963](1960_1963.PNG)
+<img width="432" alt="1960_1963" src="https://user-images.githubusercontent.com/46054540/50400412-59a59700-073b-11e9-9f1b-9bdf6b16f78b.PNG">
+
 
 ## What will be added in future updates
 
